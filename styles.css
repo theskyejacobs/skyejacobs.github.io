@@ -65,13 +65,14 @@ a:hover, a:focus {
   text-decoration: underline;
 }
 
-/* Header and Navigation */
 header {
-   display: flex;
-   align-items: baseline; /* Aligns items by their text baseline */
-   justify-content: flex-start; /* Aligns items to the start */
-   margin-bottom: 3rem;
-   padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row; /* Explicitly set row direction */
+    align-items: baseline;
+    justify-content: flex-start;
+    flex-wrap: nowrap; /* Prevent wrapping to next line */
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 header h1 {
@@ -80,9 +81,9 @@ header h1 {
 }
 
 nav {
-   display: flex;
-   gap: 1.5rem; /* Space between navigation items */
-   flex-wrap: wrap;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
 }
 
 nav a {
