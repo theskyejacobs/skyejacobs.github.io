@@ -1,0 +1,137 @@
+/* Base styles */
+:root {
+  --text-color: #333;
+  --link-color: #2233bb;
+  --link-hover: #4455dd;
+  --background: #fff;
+  --max-width: 800px;
+  --side-padding: 2rem;
+  --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+  font-family: var(--font-main);
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+body {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem var(--side-padding);
+}
+
+/* Typography */
+h1, h2, h3 {
+  margin: 1.5rem 0 1rem 0;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+p, ul, ol {
+  margin-bottom: 1.5rem;
+}
+
+/* Links */
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+/* Header and Navigation */
+header {
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+}
+
+header h1 {
+  margin-bottom: 1rem;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+nav a {
+  position: relative;
+}
+
+/* Lists */
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Main sections */
+section {
+  margin-bottom: 3rem;
+}
+
+.bio p {
+  margin-bottom: 1.2rem;
+}
+
+/* Recent posts */
+.recent-posts article {
+  margin-bottom: 2rem;
+}
+
+/* Contact */
+.contact ul {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+/* Helper for bullet points in lists */
+.contact li::before {
+  content: "•";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    padding: 1.5rem 1.2rem;
+  }
+  
+  nav {
+    gap: 1rem;
+  }
+}
