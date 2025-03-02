@@ -76,7 +76,7 @@ header {
 }
 
 header h1 {
-   margin-right: 8rem; /* Adjust this value to control spacing */
+   margin-right: 4rem; /* Adjust this value to control spacing */
    margin-bottom: 0; /* Remove bottom margin that might push nav down */
 }
 
