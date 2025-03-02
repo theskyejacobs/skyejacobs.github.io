@@ -27,6 +27,7 @@ body {
   margin: 0 auto;
   padding: 2rem var(--side-padding);
   font-family: 'Rubik', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  word-spacing: 0.05em; /* Adds a subtle amount of space between words */
 }
 
 /* Article styling */
