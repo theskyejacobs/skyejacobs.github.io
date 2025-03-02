@@ -70,6 +70,10 @@ h3 {
   font-size: 1.25rem;
 }
 
+.small-header {
+    font-size: 1.3rem !important;
+}
+
 p, ul, ol {
   margin-bottom: 1.5rem;
 }
