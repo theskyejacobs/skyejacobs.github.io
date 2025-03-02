@@ -67,22 +67,22 @@ a:hover, a:focus {
 
 /* Header and Navigation */
 header {
-    display: flex;
-    align-items: baseline; /* Aligns items by their text baseline */
-    justify-content: flex-start; /* Aligns items to the start */
-    margin-bottom: 3rem;
-    padding-bottom: 1rem;
+   display: flex;
+   align-items: baseline; /* Aligns items by their text baseline */
+   justify-content: flex-start; /* Aligns items to the start */
+   margin-bottom: 3rem;
+   padding-bottom: 1rem;
 }
 
 header h1 {
-    margin-right: 3rem; /* Adjust this value to control spacing */
-    margin-bottom: 0; /* Remove bottom margin that might push nav down */
+   margin-right: 3rem; /* Adjust this value to control spacing */
+   margin-bottom: 0; /* Remove bottom margin that might push nav down */
 }
 
 nav {
-    display: flex;
-    gap: 1.5rem; /* Space between navigation items */
-    flex-wrap: wrap;
+   display: flex;
+   gap: 1.5rem; /* Space between navigation items */
+   flex-wrap: wrap;
 }
 
 nav a {
